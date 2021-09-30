@@ -11,17 +11,11 @@ To be presented at [BuildSys 2021](https://buildsys.acm.org/2021/) in November.
 If you find this code or the paper useful, please consider citing:
 
 
-@inproceedings{cardell-oliver2021buildsys,
-
-    title={Activity-Aware Privacy Protection for Smart Water Meters}, 
-    
+    @inproceedings{cardell-oliver2021buildsys,
+    title={Activity-Aware Privacy Protection for Smart Water Meters},
     author={Cardell-Oliver, R. and Carter-Turner, H.},
-    
     booktitle={The 8th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (BuildSys '21), November 17--18, 2021, Coimbra, Portugal},
-    
     year={2021},
-    
     url = {https://doi.org/10.1145/3486611.3486650},
-    
     doi = {10.1145/3486611.3486650}
-}
+    }
