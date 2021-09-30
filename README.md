@@ -10,6 +10,7 @@ To be presented at [BuildSys 2021](https://buildsys.acm.org/2021/) in November.
 ## Bibtex
 If you find this code or the paper useful, please consider citing:
 
+
 @inproceedings{cardell-oliver2021buildsys,
 
     title={Activity-Aware Privacy Protection for Smart Water Meters}, 
