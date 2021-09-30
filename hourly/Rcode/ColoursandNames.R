@@ -22,9 +22,19 @@ activitynames = c("Leaks","Habits","Daily Occupancy")
 activitypch = c(6,5,1) #2,
 }
 
-## 10 second activites
+## Fine-grained 10 second activites
 {
-  
+    fineactivitycols = brewer.pal(8,"Paired")
+    fineactivitynames = c("Taps","Toilet","Shower",
+                          "Dishwasher","Clotheswasher","All") 
+    fineactivitypch = 1:5
+
+    # in multiples of 10 seconds (so 6 is 1 min)
+    aggselection = c(1,6,6*5,6*15,6*30,6*60)
+    
+    #labels for graphs
+    aggselectionminutes = paste(as.character(round(aggselection*10/60)),"min")
+    aggselectionminutes[1] = "10 sec" #10 second label
 }
 
 

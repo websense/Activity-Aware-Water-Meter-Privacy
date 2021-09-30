@@ -122,19 +122,6 @@
   }
 
 
-## tests
-if (runalltests) 
-{
-  ac=2
-  agg=3
-  k=20
-  outliers = alloutlierslist[[k]][[agg]]
-  selectedgt = allGT[[ac]][[agg]][,-outliers]
-  selectedar = allAR[[ac]][[agg]][,-outliers]  
-  PK=MAXPK
-  u1=unicity(selectedgt,selectedar,agg,PK=MAXPK, NTRIES=10)
-  bb=boxplot(u1[[1]])
-}
 }
 
 ## S3. calculate Unicity results for all times
@@ -200,5 +187,3 @@ saveRDS(unicityres,file="../Rdata/unicityres.rds")
   saveRDS(unicityresdry,file="../Rdata/unicityresdry.rds")
   
 }  
-
-
